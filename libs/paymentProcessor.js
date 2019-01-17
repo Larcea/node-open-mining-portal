@@ -76,7 +76,7 @@ function SetupForPool(poolOptions, setupFinished) {
 
     async.parallel([
         function (callback) {
-            daemon.cmd('validateaddress', [poolOptions.address], function (result) {
+            daemon.cmd('getaddressinfo', [poolOptions.address], function (result) {
                 logger.silly('Validated %s address with result %s', poolOptions.address, JSON.stringify(result));
                 if (result.error) {
                     logger.error('Error with payment processing daemon %s', JSON.stringify(result.error));
