@@ -237,7 +237,7 @@ function SetupForPool(poolOptions, setupFinished) {
                             //choose addressAccount as last output of generation transaction
                             //because there may masternodes payees and pool address should be last
                             //in zcoin its tx.address
-                            addressAccount = tx.result || tx.address;
+                            addressAccount = tx.result;
                             logger.warn("Could not decrypt address from tx (no tx.result or tx.address field) %s", JSON.stringify(tx));
                             return;
                         }
