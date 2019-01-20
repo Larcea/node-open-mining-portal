@@ -4,9 +4,9 @@
 
 -------
 ### Node Open Mining Portal consists from 3 main modules:
-* Main module - https://github.com/foxer666/node-open-mining-portal
-* Stratum Pool - https://github.com/foxer666/node-stratum-pool
-* Node Multihashing libraries https://github.com/foxer666/node-multi-hashing
+* Main module - https://github.com/Larcea/node-open-mining-portal
+* Stratum Pool - https://github.com/Larcea/node-stratum-pool-1
+* Node Multihashing libraries https://github.com/Larcea/node-multi-hashing-2
 
 Stratum Pool can be replaced with node-merged-pool (it's made in UNOMP)
 Adding new algos threw Node Multihashing libraries.
@@ -16,7 +16,7 @@ Current version: v1.0.11
 -------
 ### Install
 ```
-git clone https://github.com/foxer666/node-open-mining-portal.git pool
+git clone https://github.com/Larcea/node-open-mining-portal.git pool
 cd pool
 npm install
 node init.js
